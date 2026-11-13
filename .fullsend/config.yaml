@@ -10,9 +10,3 @@ tracker:
                 - fullsend-ai/fullsend
                 - fullsend-ai/agents
 runtime: dummy
-agents:
-    - name: enabled-ping
-      source: harness/enabled-ping.yaml
-    - name: disabled-ping
-      source: harness/disabled-ping.yaml
-      enabled: false
